@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.steven.koekenbestellen" >
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NieuweBestellingActivity"
+            android:label="@string/title_activity_nieuwe_bestelling" >
+        </activity>
+
+        <provider
+            android:name=".Persistence.BestellingContentProvider"
+            android:authorities="com.steven.koekenbestellen.provider.bestelling" />
+
+        <activity
+            android:name=".OverzichtActivity"
+            android:label="@string/title_activity_overzicht" >
+        </activity>
+    </application>
+
+</manifest>

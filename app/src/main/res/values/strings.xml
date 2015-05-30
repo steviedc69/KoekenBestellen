@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">KoekenBestellen</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="totaal">Totaal : </string>
+    <string name="choco">Chocolade : </string>
+    <string name="vanille">Vanille : </string>
+    <string name="franchi">Franchipane : </string>
+    <string name="overzicht">Overzicht</string>
+    <string name="nieuwe">Nieuwe bestelling</string>
+    <string name="title_activity_nieuwe_bestelling">NieuweBestellingActivity</string>
+    <string name="naam">Naam</string>
+    <string name="voornaam">Voornaam</string>
+    <string name="aflevering">Aflever adres</string>
+    <string name="gsm">GSM</string>
+    <string name="te_betalen">Te betalen</string>
+    <string name="betaald">Betaald : </string>
+    <string name="opslaan">Opslaan</string>
+    <string name="title_activity_overzicht">OverzichtActivity</string>
+
+</resources>
